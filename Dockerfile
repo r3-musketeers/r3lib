@@ -10,5 +10,3 @@ RUN "./scripts/install-deps.sh"
 RUN mvn install
 
 VOLUME [ "/root/.m2" ]
-
-CMD ["/bin/sh"]
