@@ -6,9 +6,7 @@ COPY scripts scripts
 COPY src src
 COPY * ./
 
-RUN apk add apache-ant
-RUN "./scripts/compile-ant-libs.sh"
-RUN "./scripts/deploy-ant-libs.sh"
+RUN "./scripts/install-deps.sh"
 RUN mvn install
 
 VOLUME [ "/root/.m2" ]

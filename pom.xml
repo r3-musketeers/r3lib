@@ -25,11 +25,11 @@
         <name>project</name>
         <url>file:${project.basedir}/repo</url>
     </repository>
-    <repository>
+    <!-- <repository>
       <id>mulesoft</id>
       <name>Mulesoft</name>
       <url>https://repository.mulesoft.org/nexus/content/repositories/public</url>
-    </repository>
+    </repository> -->
   </repositories>
 
   <dependencies>
