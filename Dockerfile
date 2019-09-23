@@ -4,7 +4,7 @@ WORKDIR /home/r3lib
 COPY lib lib
 COPY scripts scripts
 COPY src src
-COPY * ./
+COPY pom.xml .
 
 RUN "./scripts/install-deps.sh"
 RUN mvn install
